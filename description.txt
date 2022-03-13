@@ -1,0 +1,36 @@
+Our code is based on Tensorflow's CycleGAN tutorial:
+https://www.tensorflow.org/tutorials/generative/cyclegan
+
+Experiments on the code was conducted using Kaggle's interactive notebook and
+TPU that they provided.
+
+Performance of our models are evaluated by submitting the code to Kaggle's competition page for a score (lower is better).
+
+Data:
+Please download the input data from:
+https://www.kaggle.com/c/gan-getting-started/data
+
+And then place the 'gan-getting-started' folder into the same directory as this README file.
+
+
+
+Credits:
+Our code are based on the following people but have still been modified.
+
+Our notebooks are based on Amy Jang's Kaggle notebook on CycleGAN:
+https://www.kaggle.com/amyjang/monet-cyclegan-tutorial
+
+Data augmentation is based on Jesper's notebook:
+https://www.kaggle.com/jesperdramsch/understanding-and-improving-cyclegans-tutorial
+
+Huber loss is based on UnfriendlyAI's Kaggle notebook:
+https://www.kaggle.com/unfriendlyai/cyclegan-without-identity-loss
+
+Weight clipping is based on Keras' documentation page:
+https://keras.io/api/layers/constraints/
+
+Gradient penalty is based on the GitHub page:
+https://github.com/ahxc/CycleGAN-WGAN-gp/blob/7aa7752974a76055aef74a8fae41d3c6ac30874e/loss.py#L42
+
+Wasserstein Loss is based on another Github page:
+https://github.com/abhiskk/wasserstein-cyclegan/blob/9083027d624087502757f65aae7ed615ca708c15/models/networks.py#L123
